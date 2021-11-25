@@ -1,0 +1,540 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+header{
+    
+    background-color: #121C16;
+background-position: center;
+background-size:cover;   
+    
+    height: 800px;
+}
+ul li{
+    display: inline-block;
+    
+}
+ul li a{
+    
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color:#8DAA90;
+    color: #000;
+}
+ul li.active a{
+    background-color:#8DAA90;
+    color: #000;
+
+}
+h1{
+    color: white;
+}
+h2{
+    text-align: center;
+    font-size: 70px;
+    color: white;
+
+    
+}
+body, html {
+    height: 100%;
+}
+p{
+    
+    text-align: center;
+    font-size:30px;
+}
+h4{
+    font-family: Garamont, serif;
+    font-size: 30px;
+    font-weight:bolder;
+    color: white;
+   margin-top: 50px;
+}
+header{
+    height: min-content;
+}
+.meniu{
+    font-size: large;
+    float:right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+.title{
+    
+    text-align: left;
+    padding: 15px;
+    
+}
+.logo{
+  
+    float: left;
+    margin: 5px;
+    width: 50px;
+    padding: 5px 5px 5px 5px;
+    
+    
+}
+
+
+
+.hero-image {
+  
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/pool4.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.finds{
+
+    background-color: #41654F;
+}
+.cardAcc, .cardAcc1{
+    display: flex;
+}
+.cardAcc, .cardAcc1 img{
+    display: flex;
+    padding: 20px;
+}
+.cardAcc1{
+    margin-left: 120px;
+}
+
+
+
+.cardP, .cardP1{
+    width: 40%;
+    font-family: Garamont, serif;
+    font-size: 25px;
+    text-align: left;
+    color: white;
+    margin-top: 20px;
+    
+}
+
+.cardP1{
+    text-align: right;
+}
+
+.cardText{
+    margin:20px;
+}
+
+.cardText1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin:7px;
+
+}
+
+.butonT, .butonT1{
+   
+    font-size: 20px;
+    margin: 15px;
+    padding: 15px;
+    background-color: #121C16;
+    width: fit-content;
+}
+
+.butonT a, .butonT1 a{
+    text-decoration: none;
+    color: white;
+}
+.solid {
+    border-top: 7px solid #121C16;
+ margin-top: 5px;
+ }
+.box{
+  padding: 10px;
+  margin: 30px;
+ 
+}
+
+
+
+.footer-distributed{
+	background: #555b5b;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	padding: 30px 60px 20px;
+	overflow: hidden;
+  
+}
+
+
+
+
+
+.footer-distributed .footer-left{
+	float: left;
+}
+
+
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font-size: 36px;
+	margin: 0 0 10px;
+}
+
+.footer-distributed h3 span{
+	color:  #121C16;
+}
+
+
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+
+
+.footer-distributed .footer-icons{
+	margin-top: 40px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+
+
+.footer-distributed .footer-right{
+	float: right;
+}
+
+.footer-distributed .footer-right p{
+	display: inline-block;
+	vertical-align: top;
+	margin: 15px 42px 0 0;
+	color: #ffffff;
+}
+.list{
+    
+    background-color:#121C16 ;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    justify-self: center;
+    
+    
+}
+.list img{
+    height: 450px;
+    width:60%;
+    align-self: flex-end;
+}
+.facilities-list{
+   
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   align-items: flex-start;
+
+}
+.wrap{
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+position: relative;
+z-index: 1;
+    
+   
+}
+
+
+.list ul .fac{
+    font-size: 25px;
+    font-weight: 500;
+    color: #ffffff;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    
+}
+.fac i{
+    padding: 10px;
+    margin-right: 5px;
+}
+.wrap-facilities{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+.alo{
+    
+    font-size: 45px;
+    font-weight: 700;
+    color: #ffffff;
+    padding: 7px;
+    margin-bottom: 25px;
+    margin-left: 30px;
+}
+.nuj{
+    text-align: left;
+   margin-left: 45px;
+   padding: 15px;
+}
+.about{
+    height: 100%;
+    background-color:#121C16 ;
+    
+}
+.aboutUs{
+    font-size: 20px;
+    text-align: left;
+    color: white;
+    padding: 20px;
+   
+}
+.about img{
+  float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 290px;
+    width: auto;
+}
+.rooms{
+    list-style: none;
+  flex-direction: column;
+  flex-wrap: wrap;
+  display: flex;
+  height: 35vh;
+  
+}
+.all{
+    font-size: 40px;
+  color: #ffffff;
+  
+}
+.fav{
+   
+    padding: 5px;
+    font-size: 25px;
+    flex: 1 0 33%;
+  
+    margin: 3px;
+    
+    
+}
+.brbr{
+    background-color: #3B5C48;
+    display: flex;
+    padding: 17px;
+    
+}
+.capacitate{
+    display: inline-block;
+    text-align: center;
+    font-size: 30px;
+    background-color:#5E9474 ;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 35px ;
+    width: min-content;
+    height: min-content;
+    
+}
+.make{
+    background-color: #41654F;
+   margin: 30px 30px 0px 30px;
+   font-size: 30px;
+   padding: 10px;
+   color: white;
+}
+.make h3{
+    text-align: center;
+}
+.ham{
+    padding-left: 25px;
+}
+.cazare{
+   display: inline-block;
+   color:white; 
+   font-size: 30px;
+   margin-left: 55px;
+   
+}
+.itemList{
+    padding: 10px;
+    display: flex;
+    
+}
+.itemHam{
+    padding: 8px;
+    background-color: #5E9474;
+    
+    margin-left: 40px;
+    font-size: 20px;
+    border-radius: 50px;
+    
+}
+
+
+.mapsDS{
+    margin: 15px;
+    margin-left: 40px;
+    padding: 15px;
+    font-size: 34px;
+    color:#121C16;
+}
+.locate{
+    font-family:Garamont, serif;
+    text-align: center;
+    font-size: 35px;
+    padding: 20px;
+ 
+}
+.holders a{
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+    background-color:#8DAA90;
+    border-radius: 50px;
+    padding:12px;
+    margin: 15px;
+}
+.frame{
+ padding: 20px;
+ margin-left: 70px;
+
+ 
+}
+
+.textC{
+    background-color:#8DAA90 ;
+}
+.cam{
+    text-align: center;
+    font-size: 50px;
+    background-color:#9BBF79 ;
+}
+.camC{
+    width: 100%;
+}
+
+.card {
+    display: flex;
+    margin: 7px;
+    margin-left:40px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+.container {
+    padding: 2px 16px;
+  }
+.card img{
+    width: 50px;
+    padding: 5px 5px 5px 5px;
+  }
+  
+.goTo{
+    font-size: 25px;
+    float:left;
+    list-style-type: none;
+    margin:12px;
+    margin-left: 60px;
+}
+.butonGo{
+    background-color: #8DAA90;
+}
+.goList .butonGo a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    border: 1px solid black;
+   
+}
+.overview{
+    text-align: center;
+    font-family: Garamont, serif ;
+    font-size: 40px;
+}
+
+.gallery{
+    background-color: #5E9474;
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 40px;
+}
+.gallery div{
+    margin:40px;
+}
+.pic{
+    
+    height: 230px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px lightgray;
+    
+
+}
+.pic img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.gallery p{
+    font-family: Garamont, serif ;
+}
+
+    
